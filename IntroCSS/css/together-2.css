@@ -1,0 +1,54 @@
+body{
+	background: #ace2cc;
+	font-size: 150%;
+	margin: 3%;
+}
+
+header{
+	background: #1c5a40;
+	text-align: center;
+	padding: 10px;
+}
+
+nav{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-family: Arial, "Times New Roman", Serif;
+}
+
+section{
+	width: 31%;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+}
+
+details{
+	font-style: italic;
+}
+
+summary{
+	font-style: normal;
+}
+
+footer{
+	background: #1c5a40;
+	/*Despejar costados del contenedor*/
+	clear: both;
+	color: #ffffff;
+}
+
+h1{
+	font-size: 250%;
+	color: #ffffff;
+}
+
+h2{
+	background: #3a574b;
+	color: #ddf6ec;
+	text-align: center;
+}
+
+img{
+	width: 100px;
+}

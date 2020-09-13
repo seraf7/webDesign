@@ -1,0 +1,27 @@
+header{
+	background: #a0b4ac;
+}
+
+h1{
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2{
+	color: #0c287c;
+	text-transform: uppercase;
+}
+
+a{
+	background: #d1d6d4;
+}
+
+img{
+	/*Para ocultar las imagenes en la pantalla*/
+	display: none;
+}
+
+section{
+	background: #707573;
+}
