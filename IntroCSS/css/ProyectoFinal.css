@@ -1,0 +1,117 @@
+body{
+	margin: 2%;
+	padding: 1%;
+}
+
+header{
+	background-color: rgba(1, 1, 1, 1);
+	background-image: url("../images/flywheel.jpg");
+	padding: 2%;
+	background-size: cover;
+}
+
+nav a{
+	height: 100%;
+	width: 12%;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.6);
+	text-align: center;
+	margin: 3%;
+	padding: 1.5%;
+	font-size: 90%;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+img{
+	width: 70%;
+	border: #000000 2px solid;
+	display: block;
+	margin: auto;
+	margin-top: 15%;
+	margin-bottom: 5%;
+}
+
+.left{
+	width: 20%;
+	display: inline-block;
+	float: left;
+	background: #7eff8e;
+	padding: 2%;
+}
+
+.right{
+	width: 70%;
+	display: inline-block;
+	float: left;
+	margin: 3%
+}
+
+h1{
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 200%;
+}
+
+.active{
+	background: rgba(255, 255, 255, 1);
+}
+
+/*Formato general de la tabla*/
+table{
+	color: #eaffe3;
+	border-spacing: 5px;
+	border: 3px solid #ffffff;
+	border-radius: 5px 5px 0 0;
+	width: 85%;
+}
+
+/*Formato de los encabezados de columna*/
+th{
+	height: 30px;
+	background: #236011;
+	border-radius: 5px 5px 0 0;
+	font-size: 90%;
+	vertical-align: center;
+	padding: 0 1%;
+	border-bottom: 4px solid #3aff00;
+}
+
+/*Primer columna alineada a la izquierda*/
+tr>th:first-child, tr>td:first-child{
+	text-align: left;
+	width: 55%;
+}
+
+/*Columnas 2 y 3 centradas*/
+tr>th:nth-child(n+2), tr>td:nth-child(n+2){
+	text-align: center;
+}
+
+tr:nth-child(n+2){
+	background: #c9ffb9;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+/*Cambio de aspecto al poner el cursor encima*/
+tr:hover:nth-child(n+2){
+	color: rgba(0, 0, 0, 1);
+	background: #f2ffb9;
+}
+
+td{
+	font-size: 85%;
+	padding: 3px 10px;
+	font-family: Tahoma, Verdana, "Times New Roman";
+	vertical-align: center;
+	transition-property: height, font-size;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+
+td:hover{
+	height: 30px;
+	font-size: 100%;
+	font-weight: bold;
+}
