@@ -1,0 +1,14 @@
+input{
+	border: 1px solid black;
+	margin: 5px;
+}
+
+input:focus{
+	background-color: #b8fff3;
+}
+
+#nick{
+	margin-left: 4%;
+	display: none;
+	width: 50%;
+}

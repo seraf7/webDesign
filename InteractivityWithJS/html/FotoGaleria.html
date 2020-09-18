@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Foto Galeria</title>
+		<link rel="stylesheet" href="../css/gallery.css">
+		<script src = "../javaScript/gallery.js"></script>
+	</head>
+	<body>
+		<div id="image">
+			Pasa sobre una imagen para mostrarla aqui
+		</div>
+
+		<!--Imagenes asociadas a funciones con eventos-->
+		<img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+		<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+		<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	</body>
+</html>

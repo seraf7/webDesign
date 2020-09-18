@@ -1,0 +1,12 @@
+input{
+	border: 1px solid black;
+	margin: 8px 0px;
+}
+
+input:focus{
+	background-color: #b8fff3;
+}
+
+fieldset{
+	margin-bottom: 4%;
+}

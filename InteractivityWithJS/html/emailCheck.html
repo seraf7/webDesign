@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Check Email</title>
+		<link rel="stylesheet" href="../css/emailCheck.css">
+		<script src="../javaScript/emailCheck.js"></script>
+	</head>
+	<body>
+		<!--Creacion de un formulario-->
+		<form>
+			<!--Asignacion de etiqueta-->
+			<label>Preferred email address: 
+				<!--Parametros de la entrada-->
+				<input type="email" id="email_addr" name="email1" value="me@me.com" required>
+			</label>
+
+			<!--onchange, llama a la funcion al detectar un cambio de contenido-->
+			<label>Repeat email address:
+				<input type="email" id="email_repeat" name="email2" required onchange="check()">
+			</label>
+
+			<!--Se obtiene el valor de retorno de la funcion para una segunda validacion-->
+			<input type="submit" value="Confirm Emails!" onclick="return check();">
+		</form>
+	</body>
+</html>
