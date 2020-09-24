@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Grid on Bootstrap</title>
+		<link rel="stylesheet" href="../css/GridBS.css">
+		<!--Enlace para usar CSS Bootstrap-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<!--Enlace para usar JS Bootstrap-->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</head>
+	
+	<body>
+		<!--Uso de la clase container de botstrap-->
+		<div class = "container">
+			<!--Creacion de una fila-->
+		  	<div class="row">
+			  	<!--Uso de 6 columnas en pantalla md y 3 para lg-->
+			  	<div class="col-md-6 col-lg-3">
+			  		<!--Visible en tamaño xs y sm-->
+			    	<div class="d-sm-block d-md-none">Extra Small and Small Screen</div>
+			    	<!--Visible en tamaño md-->
+			        <div class="d-none d-md-block d-lg-none">Medium Screen</div>
+			        <!--Visible en tamaño lg-->
+			        <div class="d-none d-lg-block">Large Screen</div> 
+			    </div>
+			    
+			    <div class="col-md-6 col-lg-3">
+			        <div class="d-sm-block d-md-none">Extra Small and Small Screen</div>
+			        <div class="d-none d-md-block d-lg-none">Medium Screen</div>
+			        <div class="d-none d-lg-block">Large Screen</div> 
+			    </div>
+			    
+			    <div class="col-md-6 col-lg-3">
+			        <div class="d-sm-block d-md-none">Extra Small and Small Screen</div>
+			        <div class="d-none d-md-block d-lg-none">Medium Screen</div>
+			        <div class="d-none d-lg-block">Large Screen</div> 
+			    </div>  
+			    
+			    <div class="col-md-6 col-lg-3">
+			        <div class="d-sm-block d-md-none">Extra Small and Small Screen</div>
+			        <div class="d-none d-md-block d-lg-none">Medium Screen</div>
+			        <div class="d-none d-lg-block">Large Screen</div> 
+			    </div>
+		  	</div>  
+		</div>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+main{
+	width: 95%;
+	/*Centra el contenido en la pantalla*/
+	margin: 0 auto;
+}
+
+html, body{
+	background-color: #ffffff;
+}
+
+body{
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #1b3d37;
+}
+
+h1{
+	font-size: 300%;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*Query para aplicar estilo a una pantalla con un tamaño minimo*/
+@media screen and (min-width: 600px){
+	.column{
+		width: 30%;
+		display: inline-block;
+		float: left;
+		margin-left: 2%;
+	}	
+}

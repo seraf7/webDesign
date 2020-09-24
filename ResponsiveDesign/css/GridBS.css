@@ -1,0 +1,22 @@
+div{
+	font-size: 140%;
+}
+
+/*Estilo para clases que comienzan con visible*/
+div[class^="d"]{
+	border: 1px solid black;
+	margin-top: 3%;
+}
+
+/*Estilo para clases que contienen lg*/
+div[class~="d-lg-block"]{
+	color: red;
+}
+
+div[class~="d-md-block"]{
+	color: blue;
+}
+
+div[class~="d-sm-block"]{
+	color: green;
+}
